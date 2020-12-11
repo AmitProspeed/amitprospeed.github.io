@@ -75,7 +75,7 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-          <tr onmouseout="ff_stop()" onmouseover="ff_start()">
+          <tr onmouseout="cbmr_stop()" onmouseover="cbmr_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='ff_image'>
@@ -83,14 +83,14 @@
                 <img src='images/cmr_before.PNG' width="160">
               </div>
               <script type="text/javascript">
-                function ff_start() {
+                function cbmr_start() {
                   document.getElementById('ff_image').style.opacity = "1";
                 }
 
-                function ff_stop() {
+                function cbmr_stop() {
                   document.getElementById('ff_image').style.opacity = "0";
                 }
-                ff_stop()
+                cbmr_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
