@@ -78,17 +78,17 @@
           <tr onmouseout="cbmr_stop()" onmouseover="cbmr_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='ff_image'>
+                <div class="two" id='cbmr_image'>
                   <img src='images/cmr_after.PNG' width="160"></div>
                 <img src='images/cmr_before.PNG' width="160">
               </div>
               <script type="text/javascript">
                 function cbmr_start() {
-                  document.getElementById('ff_image').style.opacity = "1";
+                  document.getElementById('cbmr_image').style.opacity = "1";
                 }
 
                 function cbmr_stop() {
-                  document.getElementById('ff_image').style.opacity = "0";
+                  document.getElementById('cbmr_image').style.opacity = "0";
                 }
                 cbmr_stop()
               </script>
@@ -106,6 +106,39 @@
               <a href="https://www.youtube.com/watch?v=cyC2jlzdmn4">video</a>
               <p></p>
               <p>A collaborative filtering based movie recommender system built using Streamlit app framework and deployed on Kubernetes cluster using GKE.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="fcr_stop()" onmouseover="fcr_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='fcr_image'>
+                  <img src='images/fcr_after.PNG' width="160"></div>
+                <img src='images/fcr_before.PNG' width="160">
+              </div>
+              <script type="text/javascript">
+                function fcr_start() {
+                  document.getElementById('fcr_image').style.opacity = "1";
+                }
+
+                function fcr_stop() {
+                  document.getElementById('fcr_image').style.opacity = "0";
+                }
+                fcr_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://github.com/AmitProspeed/Cloud-Based-Movie-Recommender-System">
+                <papertitle>Face Recognition Service</papertitle>
+              </a>
+              <br>
+              <strong>Amit Baran Roy</strong>, Aparajita Singh
+              <br>
+              <em>Sep-Dec</em>, 2020  
+              <br>
+              <a href="https://github.com/AmitProspeed/FaceRecognition-Kubernetes">code</a> / 
+              <p></p>
+              <p>An automatic face recognition service using <a href="http://dlib.net/">dlib's</a> state-of-the-art face recognition built with deep learning and deployed on Kubernetes cluster using GKE.</p>
             </td>
           </tr> 
 
@@ -481,7 +514,7 @@
   </table>
 
   <p style="text-align:right;font-size:small;">
-      Last updated: December 11, 2020 <br> Thanks <a href="https://jonbarron.info/" style="font-size:small">Jon Barron!</a>
+      Last updated: December 17, 2020 <br> Thanks <a href="https://jonbarron.info/" style="font-size:small">Jon Barron!</a>
   </p>
 
 
