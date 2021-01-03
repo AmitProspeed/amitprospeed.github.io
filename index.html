@@ -75,6 +75,40 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <tr onmouseout="cosc_stop()" onmouseover="cosc_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='cosc_image'>
+                  <img src='images/cosc_after.PNG' width="160"></div>
+                <img src='images/cosc_before.PNG' width="160">
+              </div>
+              <script type="text/javascript">
+                function cosc_start() {
+                  document.getElementById('cosc_image').style.opacity = "1";
+                }
+
+                function cosc_stop() {
+                  document.getElementById('cosc_image').style.opacity = "0";
+                }
+                cosc_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://github.com/AmitProspeed/covid_19_detection_from_ct_scans">
+                <papertitle>Covid-19 detection using CT scan</papertitle>
+              </a>
+              <br>
+              <strong>Amit Baran Roy</strong>
+              <br>
+              <em>December</em>, 2020  
+              <br>
+              <a href="https://github.com/AmitProspeed/covid_19_detection_from_ct_scans">code</a>
+              <p></p>
+              <p>A hybrid deep learning model built using DenseNet and Nu-SVM architecture to detect Covid-19 infection using CT-scans. After training on a dataset of around 750 CT-scan images, the model achieved an accuracy of 89.5% and 94.5% AUC. It performed better as compared to other models like ResNet, Inception and MobileNet.</p>
+            </td>
+          </tr>
+
+
           <tr onmouseout="cbmr_stop()" onmouseover="cbmr_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -514,7 +548,7 @@
   </table>
 
   <p style="text-align:right;font-size:small;">
-      Last updated: December 17, 2020 <br> Thanks <a href="https://jonbarron.info/" style="font-size:small">Jon Barron!</a>
+      Last updated: January 2, 2021 <br> Thanks <a href="https://jonbarron.info/" style="font-size:small">Jon Barron!</a>
   </p>
 
 
